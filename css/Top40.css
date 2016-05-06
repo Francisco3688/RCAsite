@@ -1,0 +1,91 @@
+@media only screen and (min-width: 900px){
+body {
+	overflow-x: hidden;
+}
+
+#trans1 {
+
+}
+
+.logo img {
+	width: 109px;
+	height: 33px;
+	margin-top: 16px;
+	margin-left: 315px;
+}
+
+.top {
+	border-bottom: solid 1px rgb(228,231,227);
+	z-index: 1000;
+	position: relative;
+	background: white;
+}
+
+.menu{
+	display: block;
+}
+
+.menu img {
+	width: 50px;
+	height: 60px;
+	margin-left: 80px;
+	margin-top: 8px;
+}
+
+.menu img:hover {
+	cursor: pointer;
+}
+
+
+
+.menu2 {
+	display: block;
+	margin-top: 60px;
+	margin-left: -70px;
+}
+
+.menu2:hover{
+	cursor: pointer;
+}
+
+ul{
+	list-style-type: none;
+	margin-top: -40px;
+	}
+
+ul li {
+	display: inline;
+	margin-left: 50px;
+	font-size: 14pt;
+	font-family: poiret one;
+	font-weight: bold;
+
+}
+
+ul li:hover {
+	text-decoration: underline;
+	color: maroon;
+}
+
+.thumbnail{
+	width: 380px;
+	height: 380px;
+	text-decoration: none;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.thumbnail img {
+	width: 380px;
+	height: 380px;
+}
+
+div ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+div ul li a:hover {
+	text-decoration: none;
+	color: maroon;
+}
