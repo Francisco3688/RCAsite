@@ -1,0 +1,185 @@
+@media only screen and (min-width: 900px){
+body {
+	overflow-x: hidden;
+	}
+
+.wrap {
+	 
+}
+.logo img {
+	width: 109px;
+	height: 33px;
+	margin-top: 16px;
+	margin-left: 315px;
+}
+
+.top {
+	border-bottom: solid 1px rgb(228,231,227);
+	z-index: 1000;
+	position: relative;
+	background: white;
+	position: fixed;
+	width: 100vw;
+}
+
+.menu{
+	display: block;
+}
+
+.menu img {
+	width: 50px;
+	height: 60px;
+	margin-left: 80px;
+	margin-top: 8px;
+}
+
+.menu img:hover {
+	cursor: pointer;
+}
+
+#carousel{
+	position: relative;
+}
+
+#carousel img{
+  height: 100%;
+  width: 100%;	
+}
+
+#carousel img:first-of-type{
+	display: block;
+}
+
+.move {
+	margin-top: -325px;
+}
+
+.move2 {
+	margin-top: -80px;
+}
+
+.move3 {
+	margin-top: -150px;
+}
+
+.menu2 {
+	display: block;
+	margin-top: 60px;
+	margin-left: -70px;
+}
+
+.menu2:hover{
+	cursor: pointer;
+}
+
+ul{
+	list-style-type: none;
+	margin-top: -40px;
+	}
+
+ul li {
+	display: inline;
+	margin-left: 50px;
+	font-size: 14pt;
+	font-family: poiret one;
+	font-weight: bold;
+
+}
+
+ul li:hover {
+	text-decoration: underline;
+	color: maroon;
+}
+
+div ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+div ul li a:hover {
+	text-decoration: none;
+	color: maroon;
+}
+
+.intro img {
+	height: 1050px;
+	width: 100vw;
+	position: relative;
+	top: -100px;
+}
+
+h2 { 
+   position: absolute; 
+   top: 100px; 
+   left: 100px; 
+   width: 100%; 
+   color: white;
+   font-size: 60pt;
+}
+
+h1{
+	border:white 4px solid;
+	background: white;
+	min-width: 80px;
+	max-width: 80px;
+	position: absolute;
+	top: 190px;
+	left:110px;
+}
+
+h3{
+	color: white;
+	position: absolute;
+	top: 215px;
+	left:110px;
+	font-size: 20pt;
+}
+
+.info {
+	min-width: 100vw;
+	position: absolute;
+	top: -450px;
+	background: white;
+	bottom: 0;
+}
+
+
+
+.one {
+	margin-top: 10px;
+	margin-left: 10px;
+
+}
+
+.twitter-timeline {
+	background-color: black;
+}
+
+.center {
+	text-align: center;
+}
+
+.social ul {
+	margin-top: -390px;
+	position: absolute;
+	margin-left: 45px;
+}
+
+.social ul li {
+	margin-left: 10px;
+}
+
+.social ul li:hover {
+	cursor: pointer;
+}
+
+.social ul li a {
+
+}
+
+.social ul li img {
+	width: 30px;
+	height: 30px;
+}
+
+}
