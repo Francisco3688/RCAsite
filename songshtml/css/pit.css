@@ -102,7 +102,7 @@ div ul li a:hover {
 }
 
 .intro img {
-	height: 900px;
+	height: 2000px;
 	width: 100vw;
 	position: relative;
 
@@ -113,13 +113,13 @@ h2 {
    top: 100px; 
    left: 100px; 
    width: 100%; 
-   color: white;
+   color: black;
    font-size: 60pt;
 }
 
 h1{
-	border:white 4px solid;
-	background: white;
+	border:black 4px solid;
+	background: black;
 	min-width: 80px;
 	max-width: 80px;
 	position: absolute;
@@ -128,7 +128,7 @@ h1{
 }
 
 h3{
-	color: white;
+	color: black;
 	position: absolute;
 	top: 215px;
 	left:110px;
@@ -138,9 +138,9 @@ h3{
 .info {
 	min-width: 100vw;
 	position: absolute;
-	top: -320px;
+	top: -1350px;
 	background: white;
-	
+	bottom:0;
 }
 
 
@@ -160,7 +160,7 @@ h3{
 }
 
 .social ul {
-	margin-top: -370px;
+	margin-top: -1400px;
 	position: absolute;
 	margin-left: 45px;
 }
