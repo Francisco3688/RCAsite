@@ -102,10 +102,10 @@ div ul li a:hover {
 }
 
 .intro img {
-	height: 1000px;
+	height: 900px;
 	width: 100vw;
 	position: relative;
-	top:-200px;
+	top:-100px;
 }
 
 h2 { 
@@ -138,7 +138,7 @@ h3{
 .info {
 	min-width: 100vw;
 	position: absolute;
-	top: -500px;
+	top: -250px;
 	background: white;
 	bottom:0;
 }
@@ -160,7 +160,7 @@ h3{
 }
 
 .social ul {
-	margin-top: -360px;
+	margin-top: -200px;
 	position: absolute;
 	margin-left: 45px;
 }
