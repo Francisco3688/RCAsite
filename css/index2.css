@@ -1,10 +1,6 @@
-@media only screen and (min-width: 900px){
+@media only screen and (min-width: 800px){
 body {
 	overflow: hidden;
-}
-
-#trans1 {
-
 }
 
 .logo img {
@@ -22,28 +18,21 @@ body {
 	background: white;
 }
 
-.menu{
-	display: block;
-}
 
-.menu img {
-	width: 50px;
-	height: 60px;
-	margin-left: 80px;
-	margin-top: 8px;
-}
-
-.menu img:hover {
-	cursor: pointer;
-}
 
 #carousel{
 	position: relative;
+	width: 100vw;	
+}
+
+.col-md-12 .bottom{
+	padding-left: 0;
+	padding-right: 0;
 }
 
 #carousel img{
   height: 100%;
-  width: 100%;	
+  width: 100vw;	
 }
 
 #carousel img:first-of-type{
@@ -84,6 +73,81 @@ ul li {
 	font-family: poiret one;
 	font-weight: bold;
 
+}
+
+ul li:hover {
+	text-decoration: underline;
+	color: maroon;
+}
+
+div ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+div ul li a:hover {
+	text-decoration: none;
+	color: maroon;
+}
+
+.menu {
+display: none;
+}
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 799px){
+body {
+	overflow-x: hidden;
+}
+
+
+.logo img {
+	width: 120px;
+	height: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	
+}
+
+.top {
+	border-bottom: solid 1px rgb(228,231,227);
+	background: white;
+
+}
+
+
+#carousel{
+	display: none;
+
+}
+
+.menu{
+	}
+
+.menu2 {
+	display: none;
+}
+
+.col-md-4 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+ul{
+	list-style-type: none;
+	text-align: center;
+	padding-left: 0px;
+	}
+
+ul li {
+	margin-top: 40px;
+	font-size: 30pt;
+	font-family: poiret one;
+	font-weight: bold;
+	border-bottom: solid 1px rgb(228,231,227);
+	padding-bottom: 20px;
 }
 
 ul li:hover {

@@ -91,3 +91,86 @@ div ul li a:hover {
 }
 
 }
+
+@media only screen and (min-width: 300px) and (max-width: 899px){
+body {
+	
+}
+
+
+.logo img {
+	width: 130px;
+	height: 40px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+}
+
+.row {
+	margin: 0 auto;
+}
+
+
+.col-md-4 {
+	padding-left: 0;
+	padding-right: 0;
+	margin: 0 auto;
+}
+
+.top {
+	border-bottom: solid 1px rgb(228,231,227);
+	z-index: 1000;
+	position: relative;
+	background: white;
+}
+
+
+
+.menu2 {
+	display: none;
+	margin-top: 60px;
+	margin-left: -70px;
+}
+
+.menu2:hover{
+	cursor: pointer;
+}
+
+ul{
+	list-style-type: none;
+	margin-top: -40px;
+	}
+
+ul li {
+	display: inline;
+	margin-left: 50px;
+	font-size: 14pt;
+	font-family: poiret one;
+	font-weight: bold;
+
+}
+
+ul li:hover {
+	text-decoration: underline;
+	color: maroon;
+}
+
+.thumbnail{
+	width: 340px;
+	height: 340px;
+	text-decoration: none;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+div ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+div ul li a:hover {
+	text-decoration: none;
+	color: maroon;
+}
+
+}
