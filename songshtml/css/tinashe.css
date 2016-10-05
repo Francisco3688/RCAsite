@@ -112,13 +112,13 @@ h2 {
    top: 100px; 
    left: 100px; 
    width: 100%; 
-   color: black;
+   color: white;
    font-size: 60pt;
    font-family: Roboto;
 }
 
 h1{
-	border:black 4px solid;
+	border:white 4px solid;
 	background: white;
 	min-width: 80px;
 	max-width: 80px;
@@ -128,7 +128,7 @@ h1{
 }
 
 h3{
-	color: black;
+	color: white;
 	position: absolute;
 	top: 215px;
 	left:110px;

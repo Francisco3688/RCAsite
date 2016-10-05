@@ -37,30 +37,9 @@ body {
 	cursor: pointer;
 }
 
-#carousel{
-	position: relative;
-}
 
-#carousel img{
-  height: 100%;
-  width: 100%;	
-}
 
-#carousel img:first-of-type{
-	display: block;
-}
 
-.move {
-	margin-top: -325px;
-}
-
-.move2 {
-	margin-top: -80px;
-}
-
-.move3 {
-	margin-top: -150px;
-}
 
 .menu2 {
 	display: block;
@@ -102,10 +81,8 @@ div ul li a:hover {
 }
 
 .intro img {
-	height: 900px;
 	width: 100vw;
-	position: relative;
-	top:-100px;
+	
 }
 
 h2 { 
@@ -139,8 +116,7 @@ h3{
 
 .info {
 	min-width: 100vw;
-	position: absolute;
-	top: -250px;
+
 	background: white;
 	bottom:0;
 }
@@ -162,7 +138,7 @@ h3{
 }
 
 .social ul {
-	margin-top: -200px;
+	margin-top: -40px;
 	position: absolute;
 	margin-left: 45px;
 }
@@ -199,9 +175,10 @@ h3{
 }
 
 h4 {
-	font-family: Roboto;
+	font-family: Poiret one;
 	font-size: 26pt;
 	text-align: center;
+	font-weight: bold;
 }
 
 .logo2 img{
@@ -230,6 +207,22 @@ audio {
 
 }
 
+.vid{
+	display: block;
+	margin-left: 280px;
+	margin-top: 20px;
+}
+
+
+Download & Get Started
+
+2.6.2
+
+image description
+
+HTML5
+
+ufoPHASER FEATURES
 }
 
 @media only screen and (min-width: 300px) and (max-width: 899px){
