@@ -10,7 +10,8 @@ body {
 	width: 109px;
 	height: 33px;
 	margin-top: 16px;
-	margin-left: 315px;
+	float: right;
+	margin-right: 5px;
 }
 
 .top {
@@ -114,7 +115,7 @@ h2 {
    width: 100%; 
    color: black;
    font-size: 60pt;
-   font-family: Roboto;
+   font-family: poiret one;
 }
 
 h1{
@@ -133,7 +134,7 @@ h3{
 	top: 215px;
 	left:110px;
 	font-size: 20pt;
-	font-family: Roboto;
+	font-family: poiret one;
 }
 
 .info {
@@ -230,25 +231,16 @@ audio {
 
 }
 
-.vid{
+.vid iframe{
 	display: block;
-	margin-left: 280px;
+	margin: 0 auto;
 	margin-top: -60px;
 }
 
-
-Download & Get Started
-
-2.6.2
-
-image description
-
-HTML5
-
-ufoPHASER FEATURES
 }
 
-@media only screen and (min-width: 300px) and (max-width: 899px){
+
+@media only screen and (min-width: 200px) and (max-width: 899px){
 body {
 	overflow-x: hidden;
 	}
@@ -273,19 +265,6 @@ body {
 	width: 100vw;
 }
 
-
-#carousel{
-	position: relative;
-}
-
-#carousel img{
-  height: 100%;
-  width: 100%;	
-}
-
-#carousel img:first-of-type{
-	display: block;
-}
 
 .move {
 	margin-top: -325px;
@@ -454,6 +433,10 @@ h3{
 .one a:hover {
 	cursor: pointer;
 	text-decoration: underline;
+}
+
+.vid{
+	display: none;
 }
 
 }

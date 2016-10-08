@@ -10,7 +10,8 @@ body {
 	width: 109px;
 	height: 33px;
 	margin-top: 16px;
-	margin-left: 315px;
+	float: right;
+	margin-right: 5px;
 }
 
 .top {
@@ -92,7 +93,7 @@ h2 {
    width: 100%; 
    color: white;
    font-size: 60pt;
-   font-family: Roboto;
+   font-family: poiret one;
 }
 
 h1{
@@ -111,7 +112,7 @@ h3{
 	top: 215px;
 	left:110px;
 	font-size: 20pt;
-	font-family: Roboto;
+	font-family: poiret one;
 }
 
 .info {
@@ -207,10 +208,12 @@ audio {
 
 }
 
-.vid{
+.vid iframe{
 	display: block;
-	margin-left: 280px;
+	margin: 0 auto;
 	margin-top: 20px;
+}
+
 }
 
 
