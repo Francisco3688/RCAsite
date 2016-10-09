@@ -239,70 +239,65 @@ audio {
 	margin-top: -60px;
 }
 
+.dropdown{
+	display:none;
 }
 
+h6 {
 
-Download & Get Started
+}
 
-2.6.2
+.boxdis {
+	display: none;
+}
 
-image description
-
-HTML5
-
-ufoPHASER FEATURES
 }
 
 @media only screen and (min-width: 300px) and (max-width: 899px){
-body {
+html {
+	max-width: 100%;
 	overflow-x: hidden;
-	}
-
-.wrap {
-	 
 }
+
+body {
+	max-width: 100%;
+	overflow-x: hidden;
+
+}
+
 .logo img {
-	width: 120px;
+	width: 130px;
 	height: 40px;
-	margin-top: 16px;
-	margin-bottom: 10px;
-	margin-left: 5px;
+	float: right;
+	margin-right: 5px;
+	margin-top: 7px;
+	margin-bottom: 15px;
+}
+
+.row {
+	margin: 0 auto;
+}
+
+
+.col-md-4 {
+	padding-left: 0;
+	padding-right: 0;
+	margin: 0 auto;
+}
+
+.col-md-4 .thumbnail {
+	margin-top: 25px;
 }
 
 .top {
 	border-bottom: solid 1px rgb(228,231,227);
 	z-index: 1000;
-	position: relative;
-	background: white;
 	position: fixed;
-	width: 100vw;
+	background: white;
+	width: 100%;
 }
 
 
-#carousel{
-	position: relative;
-}
-
-#carousel img{
-  height: 100%;
-  width: 100%;	
-}
-
-#carousel img:first-of-type{
-	display: block;
-}
-
-.move {
-	margin-top: -325px;
-}
-
-.move2 {
-	margin-top: -80px;
-}
-
-.move3 {
-	margin-top: -150px;
-}
 
 .menu2 {
 	display: none;
@@ -314,150 +309,150 @@ body {
 	cursor: pointer;
 }
 
-ul{
-	list-style-type: none;
-	margin-top: -40px;
-	}
 
-ul li {
-	display: inline;
-	margin-left: 50px;
-	font-size: 14pt;
-	font-family: poiret one;
-	font-weight: bold;
+
+.menumini img {
+	float: left;
+	margin-top: 23px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+
+    border: none;
+    cursor: pointer;
+   	margin-top: 15px;
+    z-index: 1000;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    float: left;
+    display: inline-block;
 
 }
 
-ul li:hover {
-	text-decoration: underline;
-	color: maroon;
-}
-
-div ul li a {
-	text-decoration: none;
-	color: black;
-}
-
-div ul li a:hover {
-	text-decoration: none;
-	color: maroon;
-}
-
-.intro img {
-	
-	width: 100vw;
-	position: relative;
-
-}
-
-h2 { 
-   position: absolute; 
-   top: 60px; 
-   left: 20px; 
-   width: 100%; 
-   color: black;
-   font-size: 25pt;
-}
-
-h1{
-	border:black 2px solid;
-	background: white;
-	min-width: 80px;
-	max-width: 80px;
-	position: absolute;
-	top: 100px;
-	left:30px;
-}
-
-h3{
-	color: black;
-	position: absolute;
-	top: 115px;
-	left:20px;
-	font-size: 20pt;
-}
-
-.info {
-	min-width: 100vw;
-	
-	background: white;
-	bottom: 0;
-}
-
-
-
-.one {
-	margin-top: 10px;
-	margin-left: 10px;
-
-}
-
-.twitter-timeline {
-	background-color: black;
-}
-
-.center {
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    background-color: #f9f9f9;
+    width: 100vw;
+   	font-family: poiret one;
+   	font-weight: bold;
+   	font-size: 25pt;
+    z-index: 1000;
+    display: none;
+    position: absolute;
+    margin-top: 15px;
 	text-align: center;
+	margin-left: -15px;
+	background: white;
+
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    border-bottom: .5px solid rgb(225, 225, 225);
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.topImage img {
+	display:none;
+}
+
+.mobileImg img {
+	display: block;
+	width: 320px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+
+iframe {
+	display:block;
+	margin: 0 auto;
+	width: 90%;
+	height: 80%;
+	margin-top: 5px;
 }
 
 .social ul {
-	position: absolute;
-	margin-top: 170px;
-	padding-left: 10px;
-}
-
-.social ul li {
-	margin-left: 10px;
-}
-
-.social ul li:hover {
-	cursor: pointer;
-}
-
-.social ul li a {
+	display:none;
 
 }
 
-.social ul li img {
-	width: 40px;
-	height: 40px;
+
+h2 { 
+   display: none;
 }
 
-.topImage {
+h1{
 	display: none;
 }
 
-.mobileImg img{
-	display: block;
-	margin: 0 auto;
-	width: 350px;
-	height: 350px;
-	margin-top: 220px;
-	border: solid 4px black;
-	margin-bottom: 10px;
+h3{
+	display: none;
 }
 
-.col-md-12 {
-	padding-left: 0;
-	padding-right: 0;
+.boxdis{
+ background: rgba(235, 233, 233, .5);
+ margin-top: -60px;
+ position: absolute;
+ width: 320px;
+ text-align: right;
+ text-decoration: none;
+ color: black;
+ font-size: 16pt;
+ font-family: poiret one;
+ font-weight: bold;
+ margin-left: 13px;
 }
 
-.col-md-4{
-	padding-right: 0;
+.logo2 img{
+	display:none;
 }
 
-.one {
-	margin-left: 30px;
+.logo3 img{
+	display:none;
+}
+
+.info .col-md-4 img{
+	display: none;
+}
+
+.info{
+	text-align: center;
+	font-family: poiret one;
+
+}
+
+h4{
 	font-weight: bold;
+	font-size: 20pt;
+	padding-top: 20px;
 }
 
-.one a{
-	text-decoration: none;
-	color: black;
-}
-
-.one a:hover {
-	cursor: pointer;
+h6{
+	font-weight: bold;
+	font-size: 20pt;
+	padding-top: 20px;
+	font-family: poiret one;
+	text-align: center;
 	text-decoration: underline;
 }
 
