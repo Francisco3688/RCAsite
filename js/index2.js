@@ -1,37 +1,37 @@
-var i = 0;
+// var i = 0;
 
-var images = $('.carousel img');
+// var images = $('.carousel img');
 
-setInterval(function(){
+// setInterval(function(){
 
-	images.eq(i).fadeOut();
+// 	images.eq(i).fadeOut();
 
-	i++;
+// 	i++;
 
-	if(i >= images.length){
-		i = 0;
-	}
+// 	if(i >= images.length){
+// 		i = 0;
+// 	}
 
-	images.eq(i).fadeIn();
-}, 3000);
+// 	images.eq(i).fadeIn();
+// }, 3000);
 
-var a = 0;
+// var a = 0;
 
-var pic = $('.carousel2 img');
+// var pic = $('.carousel2 img');
 
-setInterval(function(){
+// setInterval(function(){
 
 
-	pic.eq(a).fadeOut();
+// 	pic.eq(a).fadeOut();
 
-	a++;
+// 	a++;
 
-	if(a >= pic.length){
-		a = 0;
-	}
+// 	if(a >= pic.length){
+// 		a = 0;
+// 	}
 
-	pic.eq(a).fadeIn();
-}, 3000);
+// 	pic.eq(a).fadeIn();
+// }, 3000);
 
 $('.menu').click(function(){
 	$('.menu2').fadeIn();

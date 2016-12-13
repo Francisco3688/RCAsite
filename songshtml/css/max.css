@@ -39,30 +39,6 @@ body {
 	cursor: pointer;
 }
 
-#carousel{
-	position: relative;
-}
-
-#carousel img{
-  height: 100%;
-  width: 100%;	
-}
-
-#carousel img:first-of-type{
-	display: block;
-}
-
-.move {
-	margin-top: -325px;
-}
-
-.move2 {
-	margin-top: -80px;
-}
-
-.move3 {
-	margin-top: -150px;
-}
 
 .menu2 {
 	display: block;
@@ -152,9 +128,7 @@ h3{
 
 }
 
-.twitter-timeline {
-	background-color: black;
-}
+
 
 .center {
 	text-align: center;
@@ -202,17 +176,20 @@ h4 {
 	font-size: 26pt;
 	text-align: center;
 	font-weight: bold;
+
 }
 
 .logo2 img{
-	width: 250px;
-	height: 70px;
+	display: block;
+	width: 300px;
+	height: 80px;
 	margin: 0 auto;
 }
 
 .logo3 img{
-	width: 100px;
-	height:100px;
+	display: block;
+	width: 300px;
+	height:90px;
 	margin: 0 auto;
 }
 
@@ -221,20 +198,12 @@ h4 {
 	margin: 0 auto;
 }
 
-audio {
-	position: absolute;
-	top: 275px;
-	left: 110px;
-	color: white;
-	width: 300px;
-
-}
 
 .vid iframe{
 	display: block;
+
 	margin: 0 auto;
-	margin-top: -60px;
-	
+		margin-top: -80px;
 }
 
 .dropdown {
@@ -243,6 +212,42 @@ audio {
 
 .boxdis {
 	display: none;
+}
+
+.chart {
+	margin-top: 30px;
+	text-align: center;
+	font-family: poiret one;
+	font-size: 40pt;
+	font-weight: bold;
+}
+
+.info .col-md-6 {
+	margin-top: 60px;
+}
+
+.col-md-6 li {
+   text-align: center;
+   font-size: 17pt;
+   font-family: poiret one;
+   font-weight: bold;
+   list-style-type: none;
+}
+
+h6 {
+   text-align: center;
+   font-size: 26pt;
+   font-family: poiret one;
+   font-weight: bold;
+   text-decoration: underline;
+}
+
+.col-md-6 {
+	text-align: center;
+}
+
+.info2{
+	margin-top: 60px;
 }
 
 }
@@ -418,16 +423,19 @@ h3{
 }
 
 .logo2 img{
-	display:none;
+	display: block;
+	margin: 0 auto;
+	width: 260px;
+	height: 70px;
 }
 
 .logo3 img{
-	display:none;
+	display: block;
+	margin: 0 auto;
+	width: 240px;
+	height: 70px;
 }
 
-.info .col-md-4 img{
-	display: none;
-}
 
 .info{
 	text-align: center;
@@ -448,6 +456,42 @@ h6{
 	font-family: poiret one;
 	text-align: center;
 	text-decoration: underline;
+}
+
+.col-md-6 li {
+   text-align: center;
+   font-size: 17pt;
+   font-family: poiret one;
+   font-weight: bold;
+   list-style-type: none;
+}
+
+h6 {
+   text-align: center;
+   font-size: 26pt;
+   font-family: poiret one;
+   font-weight: bold;
+   text-decoration: underline;
+}
+
+.col-md-6 {
+	text-align: center;
+}
+
+.info2{
+	margin-top: 10px;
+}
+
+.tweets {
+	display: none;
+}
+
+.chart {
+	margin-top: 30px;
+	text-align: center;
+	font-family: poiret one;
+	font-size: 32pt;
+	font-weight: bold;
 }
 
 }

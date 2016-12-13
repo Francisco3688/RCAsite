@@ -6,6 +6,7 @@ body {
 .wrap {
 	 
 }
+
 .logo img {
 	width: 109px;
 	height: 33px;
@@ -13,8 +14,6 @@ body {
 	float: right;
 	margin-right: 5px;
 }
-
-
 
 .top {
 	border-bottom: solid 1px rgb(228,231,227);
@@ -110,6 +109,7 @@ div ul li a:hover {
 	top: -80px;
 }
 
+
 h2 { 
    position: absolute; 
    top: 60px; 
@@ -123,13 +123,13 @@ h2 {
 
 h1{
 	border:white 4px solid;
-	background: black;
+	background: white;
 	min-width: 80px;
 	max-width: 80px;
 	position: absolute;
 	top: 150px;
 	left:110px;
-	 font-weight: bold;
+
 }
 
 h3{
@@ -137,9 +137,9 @@ h3{
 	position: absolute;
 	top: 175px;
 	left:110px;
-	font-size: 28pt;
+	font-size: 42pt;
 	font-family: poiret one;
-	 font-weight: bold;
+	font-weight: bold;
 }
 
 .info {
@@ -217,11 +217,9 @@ h4 {
 }
 
 .logo3 img{
-	display: block;
-	width: 300px;
-	height:90px;
+	width: 100px;
+	height:100px;
 	margin: 0 auto;
-	margin-top: 40px;
 }
 
 .info .col-md-4 img{
@@ -229,6 +227,14 @@ h4 {
 	margin: 0 auto;
 }
 
+audio {
+	position: absolute;
+	top: 275px;
+	left: 110px;
+	color: white;
+	width: 300px;
+
+}
 
 .vid iframe{
 	display: block;
@@ -242,15 +248,6 @@ h4 {
 
 .boxdis {
 	display: none;
-}
-
-
-.chart {
-	margin-top: 30px;
-	text-align: center;
-	font-family: poiret one;
-	font-size: 40pt;
-	font-weight: bold;
 }
 
 .col-md-6 li {
@@ -269,28 +266,25 @@ h6 {
    text-decoration: underline;
 }
 
-
-.col-md-6 iframe {
-	display: block;
-	margin: 0 auto;
-}
-
-.col-md-6 h4 {
-	padding-top: 50px;
-
-}
-
 .col-md-6 {
 	text-align: center;
-	
 }
 
-.info2 {
-	margin-top: 500px;
+.info2{
+	margin-top: 60px;
+}
+
+.chart {
+	margin-top: 30px;
+	text-align: center;
+	font-family: poiret one;
+	font-size: 40pt;
+	font-weight: bold;
 }
 
 
 }
+
 
 @media only screen and (min-width: 300px) and (max-width: 899px){
 html {
@@ -467,12 +461,12 @@ h3{
 }
 
 .logo3 img{
-	display:block;
-	margin: 0 auto;
-	width: 180px;
-	height: 60px;
+	display:none;
 }
 
+.info .col-md-4 img{
+	display: none;
+}
 
 .info{
 	text-align: center;
@@ -495,17 +489,9 @@ h6{
 	text-decoration: underline;
 }
 
-.chart {
-	margin-top: 30px;
-	text-align: center;
-	font-family: poiret one;
-	font-size: 20pt;
-	font-weight: bold;
-}
-
 .col-md-6 li {
    text-align: center;
-   font-size: 17pt;
+   font-size: 16pt;
    font-family: poiret one;
    font-weight: bold;
    list-style-type: none;
@@ -519,24 +505,24 @@ h6 {
    text-decoration: underline;
 }
 
-
-.col-md-6 iframe {
-	display: block;
-	margin: 0 auto;
-}
-
-.col-md-6 h4 {
-
-
-}
-
 .col-md-6 {
 	text-align: center;
-	
 }
 
-.info2 {
-	
+.info2{
+	margin-top: 5px;
+}
+
+.chart {
+	margin-top: 30px;
+	text-align: center;
+	font-family: poiret one;
+	font-size: 20pt;
+	font-weight: bold;
+}
+
+.chart2 {
+	font-size: 32pt;
 }
 
 .tweets {
@@ -544,5 +530,3 @@ h6 {
 }
 
 }
-
-
