@@ -3,9 +3,7 @@ body {
 	overflow-x: hidden;
 	}
 
-.wrap {
-	 
-}
+
 
 .logo img {
 	width: 109px;
@@ -39,18 +37,6 @@ body {
 	cursor: pointer;
 }
 
-#carousel{
-	position: relative;
-}
-
-#carousel img{
-  height: 100%;
-  width: 100%;	
-}
-
-#carousel img:first-of-type{
-	display: block;
-}
 
 .move {
 	margin-top: -325px;
@@ -250,6 +236,14 @@ audio {
 }
 
 .col-md-6 li {
+   text-align: center;
+   font-size: 17pt;
+   font-family: poiret one;
+   font-weight: bold;
+   list-style-type: none;
+}
+
+.col-md-12 li {
    text-align: center;
    font-size: 17pt;
    font-family: poiret one;
